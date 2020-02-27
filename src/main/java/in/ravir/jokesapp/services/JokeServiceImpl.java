@@ -1,10 +1,13 @@
 package in.ravir.jokesapp.services;
 
+import org.springframework.stereotype.Service;
+
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 /**
  * JokeServiceImpl
  */
+@Service
 public class JokeServiceImpl implements JokeService{
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
